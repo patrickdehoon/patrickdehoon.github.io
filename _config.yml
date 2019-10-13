@@ -19,19 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Becoming a Data Engineer
+author: Patrick de Hoon
 email: patrickdehoon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Started as a Management graduate, became a Data Engineer & Computer Science student.
-  Follow me on my life-long journey becoming a professional data engineer.
+  Started as a Management graduate, but became a Data Engineer & Computer Science student.
+  Follow me on my lifelong journey becoming a professional data engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: piripiri92
-github_username:  patrickdehoon
+
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+
+include: ['_pages']
+date_format: "%b %-d, %Y"
+social_links:
+  instagram: piripiri92
+  github:  patrickdehoon
+  linkedin: patrickdehoon
 
 # Exclude from processing.
 # The following items will not be processed, by default.
